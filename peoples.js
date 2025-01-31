@@ -5,6 +5,14 @@
 // un oggetto con due proprietà: fullName ed hobbies. All’interno della tua funzione,
 //  usa le tue due funzioni precedenti per costruire l’oggetto.
 
+// Importiamo le fuzioni
+const addHobbies = require('./hobbies');
+const addPerson = require('./names');
 
+// Creaiamo  la funzone
+function personAndHobbies() {
+   const peoples =  { ...addPerson(), ...addHobbies() };
+   return peoples;
+};
 
 
