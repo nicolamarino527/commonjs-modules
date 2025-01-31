@@ -16,3 +16,19 @@ function personAndHobbies() {
 };
 
 
+
+
+
+
+
+
+// Alternativa
+// function personAndHobbies(){
+//     const fullName = addPerson('antonio','rossi');
+//     const allHobbies = addHobbies('nuotare','barca a vela','comportarsi com un delfino');
+//     return {
+//         fullName : fullName,
+//         allHobbies : allHobbies
+//     }
+// }
+// console.log(personAndHobbies());
