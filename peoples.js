@@ -6,8 +6,8 @@
 //  usa le tue due funzioni precedenti per costruire l’oggetto.
 
 // Importiamo le fuzioni
-const addHobbies = require('./hobbies');
 const addPerson = require('./names');
+const addHobbies = require('./hobbies');
 
 // Creaiamo  la funzone
 function personAndHobbies() {
